@@ -24,7 +24,7 @@ github_username:  carlosm3011
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
