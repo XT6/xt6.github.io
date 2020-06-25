@@ -35,3 +35,5 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # gem "github-pages", group: :jekyll_plugins
 # gem "jekyll-theme-clean-blog"
 gem "jekyll-theme-hacker"
+
+gem "github-pages", group: :jekyll_plugins
