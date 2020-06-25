@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://xt6.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xt6.github.io/" rel="alternate" type="text/html" /><updated>2020-06-25T00:48:29-03:00</updated><id>https://xt6.github.io/feed.xml</id><title type="html">Otro blog mas, el de XT6</title><subtitle>Un blog sobre tecnologia, ciencia y mas...</subtitle><entry><title type="html">Maker Lab</title><link href="https://xt6.github.io/maker/iot/raspberry/2020/06/25/maker-lab.html" rel="alternate" type="text/html" title="Maker Lab" /><published>2020-06-25T00:16:25-03:00</published><updated>2020-06-25T00:16:25-03:00</updated><id>https://xt6.github.io/maker/iot/raspberry/2020/06/25/maker-lab</id><content type="html" xml:base="https://xt6.github.io/maker/iot/raspberry/2020/06/25/maker-lab.html">&lt;h1 id=&quot;maker-lab&quot;&gt;Maker Lab&lt;/h1&gt;
+
+&lt;p&gt;Maker Lab es una coleccion de posts, documentos y videos acerca de como realizar proyectos de internet de las cosas (IoT) utilizando dispositivos como las Raspberry Pi, Raspberry Pi Zero, BBC Microbit y similares.&lt;/p&gt;
+
+&lt;h2 id=&quot;inicializando-un-raspberry-pi&quot;&gt;Inicializando un Raspberry Pi&lt;/h2&gt;
+
+&lt;p&gt;Esta presentacion describe como inicializar un Raspberry Pi sin necesidad de conectarle un teclado y un monitor dedicados. Entre otras cosas se menciona como grabar una imagen del sistema operativo en una micro SD card, de como editar el archivo config.txt y de como acceder a nuestra raspberry una vez que ella a booteado de la micro-SD.&lt;/p&gt;
+
+&lt;p&gt;La presentacion esta disponible en &lt;a href=&quot;https://docs.google.com/presentation/d/1S8_ncsFOXXUWG0fKW9mDRTbCNRAuKoyqqijz7x7YVfo/edit&quot;&gt;Google Docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Por cualquier comentario y sugerencia, enviar DM via Twitter a @CagnazzoEng.&lt;/p&gt;
+
+&lt;h2 id=&quot;que-es-y-como-se-instala-el-raspberry-sensehat&quot;&gt;Que es y como se instala el Raspberry SenseHat&lt;/h2&gt;
+
+&lt;p&gt;El Raspberry Sense Hat es una extension para Raspberry Pi 3 que incluye diversos tipos de sensores como ser:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;acelerometro&lt;/li&gt;
+  &lt;li&gt;presion&lt;/li&gt;
+  &lt;li&gt;temperatura&lt;/li&gt;
+  &lt;li&gt;humedad&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En este &lt;a href=&quot;https://www.youtube.com/watch?v=4XFXO15A_fc&quot;&gt;video sensehat&lt;/a&gt; mostramos como instalarlo y un pequeno ejemplo de como utilizarlo.&lt;/p&gt;</content><author><name></name></author><category term="maker" /><category term="iot" /><category term="raspberry" /><summary type="html">Maker Lab</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://xt6.github.io/jekyll/update/2020/06/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-06-25T00:16:25-03:00</published><updated>2020-06-25T00:16:25-03:00</updated><id>https://xt6.github.io/jekyll/update/2020/06/25/welcome-to-jekyll</id><content type="html" xml:base="https://xt6.github.io/jekyll/update/2020/06/25/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

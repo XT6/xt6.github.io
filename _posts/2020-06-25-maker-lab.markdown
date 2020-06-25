@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Maker Lab"
+date:   2020-06-25 00:16:25 -0300
+categories: maker iot raspberry
+---
+
+# Maker Lab
+
+Maker Lab es una coleccion de posts, documentos y videos acerca de como realizar proyectos de internet de las cosas (IoT) utilizando dispositivos como las Raspberry Pi, Raspberry Pi Zero, BBC Microbit y similares.
+
+## Inicializando un Raspberry Pi
+
+Esta presentacion describe como inicializar un Raspberry Pi sin necesidad de conectarle un teclado y un monitor dedicados. Entre otras cosas se menciona como grabar una imagen del sistema operativo en una micro SD card, de como editar el archivo config.txt y de como acceder a nuestra raspberry una vez que ella a booteado de la micro-SD.
+
+La presentacion esta disponible en [Google Docs][presentacion-init-raspberry].
+
+Por cualquier comentario y sugerencia, enviar DM via Twitter a @CagnazzoEng.
+
+## Que es y como se instala el Raspberry SenseHat 
+
+El Raspberry Sense Hat es una extension para Raspberry Pi 3 que incluye diversos tipos de sensores como ser:
+
+- acelerometro
+- presion
+- temperatura
+- humedad
+
+En este [video sensehat][video-sensehat] mostramos como instalarlo y un pequeno ejemplo de como utilizarlo.
+
+[presentacion-init-raspberry]: https://docs.google.com/presentation/d/1S8_ncsFOXXUWG0fKW9mDRTbCNRAuKoyqqijz7x7YVfo/edit
+
+[video-sensehat]: https://www.youtube.com/watch?v=4XFXO15A_fc
