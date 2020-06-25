@@ -25,7 +25,7 @@ github_username:  carlosm3011
 # Build settings
 markdown: kramdown
 # theme: jekyll-theme-slate
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
