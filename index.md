@@ -28,6 +28,12 @@ TBW*
 
 - [2008-11: FIRST Tecnical Colloquium - Fast Flux Service Networks]({% link _posts/2008-11-01-first-tc-dns-fast-flux.md %})
 
-- [Post 5]({% link _posts/2008-12-31-dummy.md %})
+- [Hibernate and Annotations]({% link _posts/2009-01-04-hibernate-annotations.md %})
+
+- [Unison 2.27 in Debian Etch and Ubuntu Hardy]({% link _posts/2009-01-04-unison-ubuntu-etch.md %})
+
+- [LACNIC XII - Panama City]({% link _posts/2009-05-27-lacnic-xii-panama.md %})
+
+- [Post 6]({% link _posts/2008-12-31-dummy.md %})
 
 - [Post 6]({% link _posts/2008-12-31-dummy.md %})
