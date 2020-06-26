@@ -14,9 +14,9 @@ layout: default
 - [Links interesantes: Programación]({% link _posts/2020-06-26-interesantes-programacion.md %})
 - [Links interesantes: Data Science]({% link _posts/2020-06-26-interesantes-datascience.md %})
 
-# Otros enlaces
+# Mis GitHub Gists
 
-TBW*
+- [Mis Gists](https://gist.github.com/carlosm3011?direction=asc&sort=updated)
 
 # Old Posts
 
@@ -53,6 +53,14 @@ TBW*
 - [Configurando IPv6 con 6to4 detras de un NAT con IP dinámica]({% link _posts/2009-01-21-ipv6-6to4-behind-nat.md %})
 
 - [LACNIC XII: Fast Flux Service Networks]({% link _posts/2009-07-31-dns-fast-flux-lacnic12.md %})
+
+- [Financial Crisis Humour (2009)]({% link _posts/2009-06-06-financial-crisis-humour.md %})
+
+- [Sad People on Trading Floors (2009)]({% link _posts/2009-06-06-sad-people-trading-floors.md %})
+
+- [Sample Logging Configuration for BIND9 (2011)]({% link _posts/2011-06-10-sample-logging-config-bind9.md %})
+
+- [Post 6]({% link _posts/2008-12-31-dummy.md %})
 
 - [Post 6]({% link _posts/2008-12-31-dummy.md %})
 
