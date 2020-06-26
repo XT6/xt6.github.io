@@ -40,9 +40,19 @@ TBW*
 
 - [2009-09: FACTOIDS - Modelos y Herramientas para el Intercambio Seguro de Datos Colectados por Sensores]({% link _posts/2009-09-01-factoids-cibsi09.md %})
 
-- [Post 6]({% link _posts/2008-12-31-dummy.md %})
+- [2010-11: Introduction to DNSSEC]({% link _posts/2010-09-01-dnssec-zatechday.md %})
 
-- [Post 6]({% link _posts/2008-12-31-dummy.md %})
+- [Configuring 'rndc' for Fine-grained BIND9 Control]({% link _posts/2011-03-23-configuring-rndc-bind9.md %})
+
+- [Winds of Change]({% link _posts/2010-12-02-winds-of-change.md %})
+
+- [A Survey on Languages, Enumerations and Other Tools used for Security Information Communication and Sharing]({% link _posts/2008-10-20-survey-languages-si-sharing.md %})
+
+- [IPv6 Experiment During LACNIX XI]({% link _posts/2008-05-20-ipv6-experiment-lacnic-xi.md %})
+
+- [Configurando IPv6 con 6to4 detras de un NAT con IP dinámica]({% link _posts/2009-01-21-ipv6-6to4-behind-nat.md %})
+
+- [LACNIC XII: Fast Flux Service Networks]({% link _posts/2009-07-31-dns-fast-flux-lacnic12.md %})
 
 - [Post 6]({% link _posts/2008-12-31-dummy.md %})
 
