@@ -34,6 +34,16 @@ TBW*
 
 - [LACNIC XII - Panama City]({% link _posts/2009-05-27-lacnic-xii-panama.md %})
 
+- [Mounting 'DD' Disk Images for Forensic Analysis]({% link _posts/2010-05-04-mounting-dd-images-forensic.md %})
+
+- [LACNIC RPKI Producion Release (2011)]({% link _posts/2015-04-13-lacnic-rpki-prod-release.md %})
+
+- [2009-09: FACTOIDS - Modelos y Herramientas para el Intercambio Seguro de Datos Colectados por Sensores]({% link _posts/2009-09-01-factoids-cibsi09.md %})
+
+- [Post 6]({% link _posts/2008-12-31-dummy.md %})
+
+- [Post 6]({% link _posts/2008-12-31-dummy.md %})
+
 - [Post 6]({% link _posts/2008-12-31-dummy.md %})
 
 - [Post 6]({% link _posts/2008-12-31-dummy.md %})
