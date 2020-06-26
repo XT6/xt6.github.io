@@ -1,8 +1,10 @@
 ---
 layout: default
-title:  "Install Gentoo Linux on an IBM x206m "
+title:  "Install Gentoo Linux on an IBM x206m"
 date:   2009-01-03 -0300
 categories: old linux gentoo
 ---
+
+# Install Gentoo Linux on an IBM x206m
 
 <p>Instal&eacute; Linux (<a href="http://www.gentoo.org/">Gentoo</a>) en un server IBM x206m. Lo interesante es que esta caja usa discos SATA / SAS (Serial Attached SCSI), y de lo cual existe soporte solo para versiones recientes del Kernel.<br /><br />El proceso a grandes rasgos:</p><ol><li>Instalar Gentoo en un disco externo o en un disco IDE &quot;prestado&quot; colocado en la misma caja<ul><li><span style="font-style: italic;">Yo us&eacute; un disco duro USB &quot;Memorex&quot; de 120 GB y la experiencia fue muy razonable en cuanto a performance</span></li></ul></li><li>Compilar un kernel que soporte discos SAS en el m&oacute;dulo&quot;aic94xx&quot;<ul><li><span style="font-style: italic;">Hay que incluir el firmware de Adaptec</span></li><li><span style="font-style: italic;">Hay que modificar el orden de carga de los modulos en el &quot;<span style="font-weight: bold;">initramfs</span>&quot;<br /></span></li></ul></li><li>Insertar el aic94xx con &quot;modprobe&quot; y verificar que se vean los discos</li><li>Particionar y transferir el sistema desde el disco externo siguiendo el procedimiento de &quot;<span style="font-style: italic;">custom stage4</span>&quot; de Gentoo</li></ol><p><span style="font-weight: bold;">Referencias:</span></p><ul><li>Adaptec aic94xx HOWTO en el Gentoo Wiki: <a href="http://gentoo-wiki.com/HARDWARE_Adaptec_aic94xx_with_bootable_software_RAID1">http://gentoo-wiki.com/HARDWARE_Adaptec_aic94xx_with_bootable_software_RAID1</a><ul><li><span style="font-style: italic;">Nota: este Howto sugiere bajarse las fuentes del kernel con &quot;cogito&quot;. Algo ha cambiado en el layout y en los patches porque as&iacute; como esta descripto en el HOWTO, no se puede completar el patcheo.</span></li><li><span style="font-style: italic;">Nota 2: Por suerte ya no hace falta. El kernel 2.6.23.11 ya soporta SAS en el modulo aic94xx<br /></span></li></ul></li><li>Custom Stage4 HOWTO en el Gentoo Wiki: <a href="http://gentoo-wiki.com/HOWTO_Custom_Stage4">http://gentoo-wiki.com/HOWTO_Custom_Stage4</a></li></ul>
