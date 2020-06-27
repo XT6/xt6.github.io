@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xt6.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CagnazzoEng
 github_username:  carlosm3011
-repository: https://github.com/XT6/xt6.github.io
+repository: "XT6/xt6.github.io"
 
 # Build settings
 markdown: kramdown
