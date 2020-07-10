@@ -17,9 +17,9 @@ Maneja el concepto de "Cliente" donde cada cliente puede gestionar sus dominios,
 
 ### Referencias y reconocimientos
 
-- El ISPCONFIG tiene su página web en (ISPCONFIG)[https://www.ispconfig.org/]
-- El rol de Ansible original se encuentra en: (GitHub Inoxio)[https://github.com/inoxio/ansible-role-ispconfig3]
-- Las instrucciones que se implementan en el rol de Ansible están en (HowtoForge, The Perfect Server)[https://www.howtoforge.com/tutorial/perfect-server-ubuntu-18.04-with-apache-php-myqsl-pureftpd-bind-postfix-doveot-and-ispconfig/]
+- El ISPCONFIG tiene su página web en [ISPCONFIG](https://www.ispconfig.org/)
+- El rol de Ansible original se encuentra en: [GitHub Inoxio](https://github.com/inoxio/ansible-role-ispconfig3) 
+- Las instrucciones que se implementan en el rol de Ansible están en [HowtoForge, The Perfect Server](https://www.howtoforge.com/tutorial/perfect-server-ubuntu-18.04-with-apache-php-myqsl-pureftpd-bind-postfix-doveot-and-ispconfig/)
 
 Finalmente, un agradecimiento a Ariel Weher por dirigirme hacia este software en primer lugar y por compartir sus conocimientos conmigo.
 
