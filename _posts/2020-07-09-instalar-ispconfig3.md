@@ -15,9 +15,15 @@ ISPCONFIG3 es una herramienta que permite gestionar fácilmente múltiples sitio
 
 Maneja el concepto de "Cliente" donde cada cliente puede gestionar sus dominios, sitios, cuentas de correo, etc.
 
+### Referencias y reconocimientos
+
+- El ISPCONFIG tiene su página web en (ISPCONFIG)[https://www.ispconfig.org/]
+- El rol de Ansible original se encuentra en: (GitHub Inoxio)[https://github.com/inoxio/ansible-role-ispconfig3]
+- Las instrucciones que se implementan en el rol de Ansible están en (HowtoForge, The Perfect Server)[https://www.howtoforge.com/tutorial/perfect-server-ubuntu-18.04-with-apache-php-myqsl-pureftpd-bind-postfix-doveot-and-ispconfig/]
+
+Finalmente, un agradecimiento a Ariel Weher por dirigirme hacia este software en primer lugar y por compartir sus conocimientos conmigo.
 
 ## Pasos
-
 
 1. instalar el rol tomado de ansible galaxy
 
@@ -89,6 +95,7 @@ Maneja el concepto de "Cliente" donde cada cliente puede gestionar sus dominios,
 En las instancias de nube donde probé este rol de Ansible, la instalación del filesystem con "quota" falla porque los módulos de kernel no se instalan hasta que se complete el primer reboot de la VM.
 
 El plan es introducir un rol adicional de Ansible para ejecutar "post primer reboot" donde se habiliten las Quotas y se haga alguna configuración adicional.
+
 
 ## Repo Github
 
