@@ -1,15 +1,22 @@
+---
+layout: default
+title:  "Como instalar ISPCONFIG3 usando Ansible"
+date:   2020-06-25 00:16:25 -0300
+categories: programming
+---
+
 # Instalación de ISPCONFIG3
 
+## Introducción
 
+Instalar el ISPCONFIG3 ("el cPanel de los pobres") usando un rol tomado de ansible-galaxy mas customizaciones adicionales.
 
-## Objetivo
+ISPCONFIG3 es una herramienta que permite gestionar fácilmente múltiples sitios web y dominios de correo electrónico en un conjunto de servidores. Al igual que cPanel el objetivo es vender o proveer el servicio de hosting compartido.
 
-Instalar el ISPCONFIG3 ("el cPanel de los pobres") usando un rol tomado de ansible-galaxy
-
+Maneja el concepto de "Cliente" donde cada cliente puede gestionar sus dominios, sitios, cuentas de correo, etc.
 
 
 ## Pasos
-
 
 
 1. instalar el rol tomado de ansible galaxy
@@ -38,7 +45,7 @@ Instalar el ISPCONFIG3 ("el cPanel de los pobres") usando un rol tomado de ansib
    
    ```
 
-   
+  
 
 3. Configurar las variables del rol:
 
@@ -70,4 +77,12 @@ Instalar el ISPCONFIG3 ("el cPanel de los pobres") usando un rol tomado de ansib
 
    
 
-4. 
+## Problemas encontrados
+
+En las instancias de nube donde probé este rol de Ansible, la instalación del filesystem con "quota" falla porque los módulos de kernel no se instalan hasta que se complete el primer reboot de la VM.
+
+El plan es introducir un rol adicional de Ansible para ejecutar "post primer reboot" donde se habiliten las Quotas y se haga alguna configuración adicional.
+
+## Repo Github
+
+TBW**
