@@ -21,6 +21,13 @@ Maneja el concepto de "Cliente" donde cada cliente puede gestionar sus dominios,
 
 1. instalar el rol tomado de ansible galaxy
 
+   Crear un directorio para trabajar en el rol:
+
+   ```shell
+   mkdir ispconfig3_install
+   cd ispconfig3_install
+   ```
+
    ```shell
    ansible-galaxy install --roles-path . inoxio.ispconfig3
    ```
