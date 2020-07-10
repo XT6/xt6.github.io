@@ -2,7 +2,7 @@
 layout: default
 title:  "Como instalar ISPCONFIG3 usando Ansible"
 date:   2020-06-25 00:16:25 -0300
-categories: programming
+categories: sysadmin ispconfig3 shared_hosting
 ---
 
 # Instalación de ISPCONFIG3

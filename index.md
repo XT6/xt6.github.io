@@ -18,6 +18,11 @@ layout: default
 
 - [Mis Gists](https://gist.github.com/carlosm3011?direction=asc&sort=updated)
 
+
+# BETA: Posts a medio redactar
+
+- [Como instalar ISPCONFIG3 usando Ansible]({% link _posts/2020-07-09-instalar-ispconfig3.md %})
+
 # Old Posts
 
 - [If Programming Languages Were Religions]({% link _posts/2009-01-01-programming-lang-religions.md %})
