@@ -88,11 +88,59 @@ Finalmente, un agradecimiento a Ariel Weher por dirigirme hacia este software en
    quota_mounts:
    ```
 
-   
+## Obtener un certificado de Let's Encrypt para el panel de control
+
+TBW
+
+## Configurar dovecot y postfix para usar el certificado de Let's Encrypt
+
+Instrucciones tomadas de [HOWTO Forge](https://www.howtoforge.com/tutorial/securing-ispconfig-3-with-a-free-lets-encrypt-ssl-certificate/)
+
+
+### Interfaz de administración
+
+Una vez obtenido el certificado usando "certbot":
+
+```
+cd /usr/local/ispconfig/interface/ssl/
+mv ispserver.crt ispserver.crt-$(date +"%y%m%d%H%M%S").bak
+mv ispserver.key ispserver.key-$(date +"%y%m%d%H%M%S").bak
+mv ispserver.pem ispserver.pem-$(date +"%y%m%d%H%M%S").bak
+ln -s /etc/letsencrypt/live/$(hostname -f)/fullchain.pem ispserver.crt
+ln -s /etc/letsencrypt/live/$(hostname -f)/privkey.pem ispserver.key
+cat ispserver.{key,crt} > ispserver.pem
+chmod 600 ispserver.pem
+```
+
+### Postfix
+
+```
+cd /etc/postfix/
+mv smtpd.cert smtpd.cert-$(date +"%y%m%d%H%M%S").bak
+mv smtpd.key smtpd.key-$(date +"%y%m%d%H%M%S").bak
+ln -s /usr/local/ispconfig/interface/ssl/ispserver.crt smtpd.cert
+ln -s /usr/local/ispconfig/interface/ssl/ispserver.key smtpd.key
+service postfix restart
+service dovecot restart
+```
+
+### Dovecot
+
+Verificar si esta instrucción existe en el /etc/dovecot/dovecot.conf
+
+```
+[...]
+ssl_cert = </etc/postfix/smtpd.cert
+ssl_key = </etc/postfix/smtpd.key
+[...]
+
 
 ## Problemas encontrados
 
-En las instancias de nube donde probé este rol de Ansible, la instalación del filesystem con "quota" falla porque los módulos de kernel no se instalan hasta que se complete el primer reboot de la VM.
+En las instancias de nube donde probé este rol de Ansible hay dos elementos que se volvieron dificiles de implementar:
+
+- La instalación del filesystem con "quota" falla porque los módulos de kernel no se instalan hasta que se complete el primer reboot de la VM.
+- Obtener un certificado de Let's Encrypt y usarlo para el panel de control y los servicios de correo.
 
 El plan es introducir un rol adicional de Ansible para ejecutar "post primer reboot" donde se habiliten las Quotas y se haga alguna configuración adicional.
 
