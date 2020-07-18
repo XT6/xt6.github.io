@@ -5,6 +5,12 @@
 layout: default
 ---
 
+# Presentaciones y charlas
+
+## 2020
+
+[Evolución del stack de protocolos de Internet - IPv6 y QUIC]({ link _posts/2020-06-15-evolucion-stack-internet-ipv6-quic.md })
+
 # Maker Lab
 
 [Articulos de Maker Lab]({% link _posts/2020-06-25-maker-lab.md %})
