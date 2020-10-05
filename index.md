@@ -75,8 +75,10 @@ layout: default
 
 - [Sad People on Trading Floors (2009)]({% link _posts/2009-06-06-sad-people-trading-floors.md %})
 
-# - [Post 6]({% link _posts/2008-12-31-dummy.md %})
+<!--
+# - Post 6]({% link _posts/2008-12-31-dummy.md %})
 
 # - [Post 6]({% link _posts/2008-12-31-dummy.md %})
 
 # - [Post 6]({% link _posts/2008-12-31-dummy.md %})
+-->
