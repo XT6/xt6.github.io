@@ -19,3 +19,10 @@ En esta sesión comentaremos sobre las limitaciones de las versiones actuales de
 ## Slides
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/ztHi7v6nF0pv91" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/carlosm30111/evolucin-del-stack-de-protocolos-de-internet-ipv6-y-quic" title="Evolución del stack de protocolos de Internet - IPv6 y QUIC" target="_blank">Evolución del stack de protocolos de Internet - IPv6 y QUIC</a> </strong> from <strong><a href="https://www.slideshare.net/carlosm30111" target="_blank">Carlos Martinez Cagnazzo</a></strong> </div>
+
+## Versión en PDF
+
+<a href="{{ "assets/doc/evolucion-stack-internet-ipv6-quic-v1-200718162019.pdf" | relative_url }}">Slides en PDF</a>
+
+## Versión y fecha
+v: 2, f: 20210118
